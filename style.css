@@ -1,0 +1,52 @@
+body {
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: brown;
+}
+
+h4 {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.utensilios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
